@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>LikeCoffee</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Home.css">
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              class="icon"
+              src="Assets/coffee_icon.png"
+              alt="icono de LikeCoffee"
+   
+            />
+            LikeCoffee
+          </a>
+
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mapa">Ubicación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div
+        class="cover d-flex justify-content-center align-items-center flex-column"
+        style=" margin-top: 2rem;"
+      >
+        <h1>LikeCoffee</h1>
+
+        <p>El mejor café de mi barrio</p>
+        <button class="btn btn-primary">Conoce más</button>
+      </div>
+    </header>
+
+    <!--     Notas informativas -->
+
+    <section>
+      <div class="container margin mt-5 mb-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <img
+                src="Assets/note01.jpg"
+                class="card-img-top"
+                alt="Una persona sirviendo un café"
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">Un café con amigos</h5>
+                <p class="card-text">
+                  El café es más que solo una bebida, es misterio, es cultura,
+                  es amor y amistad, es, en el territorio enorme que abarcan sus
+                  dos sílabas, poesía. Una taza de café despierta a una persona
+                  para comenzar su día activando su cerebro y causando
+                  endorfinas muy parecidas al amor.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <img
+                src="Assets/note02.jpg"
+                class="card-img-top"
+                alt="Manos de una persona levantando café recién cosechado"
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">La producción cafetera en Colombia</h5>
+                <p class="card-text">
+                  La producción anual de café de Colombia cerró 2022 en 11,1
+                  millones de sacos de 60 kg, cifra que representa una reducción
+                  de 12% frente a los casi 12,6 millones de sacos de 2021. (La
+                  cosecha cafetera alcanzó valor récord de $14,5 billones).
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <img
+                src="Assets/note03.jpg"
+                class="card-img-top"
+                alt="Una maquina automatizada secando el grano de café"
+              />
+
+              <div class="card-body">
+                <h5 class="card-title">Proceso de elaboración</h5>
+                <p class="card-text">
+                  En el procesamiento, se elimina la pulpa de las cerezas del
+                  café y se seca para transformar el café recolectado en café
+                  listo para las etapas venideras. Según el método seleccionado
+                  (húmedo o seco), el sabor del café obtendrá características
+                  diferentes en su sabor. El curado, se materializa antes de su
+                  exportación.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--     Formulario correo electrónico -->
+
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-sm-6 col-lg-5">
+            <img
+              width="300px"
+              src="Assets/girl_illustration.png"
+              alt="Dibujo de chica bebiendo café"
+              style="margin-bottom: 20px"
+            />
+          </div>
+
+          <div class="col-12 col-sm-6">
+            <h3>¡Suscríbete!</h3>
+            <p>
+              Podrás recibir información actualizada sobre eventos y ofertas
+              semanales.
+            </p>
+
+            <p>Encuentra el punto de venta más cercano.</p>
+            <a href="#mapa">Ir al mapa</a>
+          </div>
+        </div>
+
+        <form action="">
+          <label for="em">Correo electrónico</label>
+          <div class="d-flex">
+            <div class="flex-fill mr-2">
+              <input type="email" id="em" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!--     Tira de productos -->
+
+    <section>
+      <div class="container margin mt-5 mb-5">
+        <h2>Nuestros productos</h2>
+        <div class="product-stripe">
+          <div class="stripe-container">
+            <div class="card">
+              <div
+                tittle="Taza de café americano"
+                class="product cover-small"
+                style="
+                  background-image: url(https://cdn.glitch.global/3b54152e-c0f5-450e-aac2-a2a2172d55ba/pexels-julia-sakelli-1011292.jpg?v=1696293674437);
+                "
+              ></div>
+
+              <div class="card-body">
+                <h5 class="card-title2">Café americano</h5>
+                <span class="badge text-bg-info"> CO$1500</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <div
+                tittle="Taza de capuccino"
+                class="product cover-small"
+                style="
+                  background-image: url(https://cdn.glitch.global/3b54152e-c0f5-450e-aac2-a2a2172d55ba/pexels-valeriia-miller-2516643.jpg?v=1696293675938);
+                "
+              ></div>
+
+              <div class="card-body">
+                <h5 class="card-title2">Capuccino</h5>
+                <span class="badge text-bg-info"> CO$3000</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <div
+                tittle="Taza de café con rosquilla"
+                class="product cover-small"
+                style="
+                  background-image: url(https://cdn.glitch.global/3b54152e-c0f5-450e-aac2-a2a2172d55ba/pexels-alfredo-alvarado-3628508.jpg?v=1696293677333);
+                "
+              ></div>
+
+              <div class="card-body">
+                <h5 class="card-title2">Combo(café+rosquilla)</h5>
+                <span class="badge text-bg-info"> CO$3500</span>
+              </div>
+            </div>
+
+            <div class="card">
+              <div
+                tittle="Taza de granizado"
+                class="product cover-small"
+                style="
+                  background-image: url(https://cdn.glitch.global/3b54152e-c0f5-450e-aac2-a2a2172d55ba/pexels-archie-binamira-1193335.jpg?v=1696293677925);
+                "
+              ></div>
+
+              <div class="card-body">
+                <h5 class="card-title2">Graniazdo de café</h5>
+                <span class="badge text-bg-info"> CO$4500</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container margin mt-5 mb-5" id="mapa">
+        <h4>Estamos ubicados aquí:</h4>
+        <p>Parque Simon Bólivar, Av. Calle 53 y Av. Esmeralda #s/n, Bogotá</p>
+        <div class="responsive-iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4638.843024722756!2d-74.0950500371692!3d4.6616885877172685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ba6cf82b5f1%3A0xa4dd28a1e7a1a2f8!2sBr.%20La%20Esmeralda%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1696298742914!5m2!1ses-419!2sco"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
