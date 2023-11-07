@@ -8,7 +8,7 @@
 
 ![Vista del mapa de geolocalización](screenshots/Map.png)
 
-## INSTRCCIONES
+## INSTRUCCIONES
 
 1. Descargar la carpeta completa de la landing page.
 
